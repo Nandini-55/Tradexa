@@ -4,7 +4,7 @@ import { getNews } from "./finnhub.actions";
 import { AI_STOCK_RECOMMENDATION_PROMPT } from "../inngest/prompts";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const apiKey = process.env.GEMINI_API_KEY || "";
+const apiKey = process.env.DEEPQUANT_API_KEY || "";
 const genAI = apiKey ? new GoogleGenerativeAI(apiKey) : null;
 
 // Proprietary DeepQuant Algorithmic Synthesis Engine (Reliable Fallback)

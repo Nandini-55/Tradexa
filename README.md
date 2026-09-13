@@ -172,7 +172,7 @@ FINNHUB_API_KEY=your_finnhub_api_key
 FINNHUB_BASE_URL=https://finnhub.io/api/v1
 
 # QUANT AI ENGINE (TRADEXA DEEPQUANT MODEL API)
-GEMINI_API_KEY=your_ai_engine_api_key
+DEEPQUANT_API_KEY=your_ai_engine_api_key
 
 # INNGEST (OPTIONAL FOR LOCAL BACKGROUND JOBS)
 INNGEST_EVENT_KEY=your_inngest_event_key

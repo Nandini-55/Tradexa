@@ -6,9 +6,9 @@ const path = require("path");
 dotenv.config({ path: path.join(__dirname, "..", ".env") });
 
 async function listModels() {
-    const apiKey = process.env.GEMINI_API_KEY;
+    const apiKey = process.env.DEEPQUANT_API_KEY;
     if (!apiKey) {
-        console.error("GEMINI_API_KEY not found in .env");
+        console.error("DEEPQUANT_API_KEY not found in .env");
         return;
     }
 
